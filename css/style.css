@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #000;
+}
+
+/*.left-bar img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 10px lightsteelblue;
+}*/
+
+.main-container {
+    background-color: #fff;
+    margin: 40px 40px 40px 13px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 5px grey;
+}
+
+aside {
+    max-width: 350px;
+}
+
+aside img {
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+aside h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.aside-container {
+    background-color: #1e2939;
+    height: 100%;
+}
+
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container {
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding-left: 15%;
+    max-width: 370px;
+}
+
+.contacts-container h3,
+.tech-skills-container h3,
+.soft-skills-container h3 {
+    margin-bottom: 16px
+}
+
+.contacts-item,
+.tech-skills-item,
+.soft-skills-item {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.contacts-item a {
+    color: #a6a8ad;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.contacts-item .email {
+    text-decoration: underline;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container ul {
+    padding-left: 17px;
+    list-style-type: none;
+}
+
+.info-container ul li::before {
+    content: "\2022";
+    color: #ff6b08;
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.9em;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.work-experience-container div ul {
+    list-style-type: none;
+}
+
+.work-experience-container div ul li::before {
+    content: "\2022";
+    color: #595959;
+    display: inline-block;
+    width: 1em;
+    margin-left: -0.9em;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.work-experience-container div ul li {
+    max-width: 640px;
+    margin-top: 15px;
+    color: #595959;
+}
+
+.work-experience-container h3 {
+    color: #2b2b2b;
+}
+
+.work-experience-container h4 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.work-experience-container h3,
+.education-container h3 {
+    margin-top: 60px;
+    font-size: 22px;
+}
+
+.work-experience-container h4 span {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.work-experience-container h4 span {
+    color: #ff6b08;
+    font-weight: bold;
+}
+
+.education-container {
+    margin-bottom: 110px;
+}
+
+.education-container div h4 {
+    font-size: 16px;
+    color: #ff6b08;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.education-container div p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000;
+}
+
+.about-me-container {
+    background-color: #fff;
+    margin-left: 90px;
+    margin-top: 110px;
+}
+
+.about-me-container h1 {
+    margin-top: 35px;
+    text-shadow: 2px 2px 3px grey;
+    color: #000;
+    font-size: 45px;
+}
+
+.about-me-container h1:hover {
+    text-shadow: 2px 3px 5px grey;
+}
+
+.about-me-container p {
+    margin-top: 25px;
+    line-height: 25px;
+    color: #595959;
+    font-size: 14px;
+    max-width: 650px;
+}
+
+.about-me-container h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.about-me-container ul,
+.about-me-container ol {
+    padding-left: 17px;
+}
+
+.projects-container h3 {
+    margin-top: 80px;
+    font-size: 22px;
+}
+
+.projects-container .project-item {
+    font-weight: 700;
+}
+
+.projects-container .project-item span {
+    font-weight: 400;
+}
+
+.projects-container a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #595959;
+    font-weight: 400;
+}
+
+.projects-container ol li {
+    margin-top: 15px;
+}
+
+.dots {
+    font-size: 10px;
+}
+
+.date {
+    color: #a8a8a8;
+    font-size: 12px;
+}
+
+.separator {
+    margin-left: 25px;
+}
+
+.country {
+    margin-left: 5px;
+}
+
+a:hover {
+    color: #ff6b08;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
